@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 
 import SEO from "../components/seo"
 import BackgroundImage from 'gatsby-background-image'
+import Info from "../components/Info"
 // import Hero_Image from "../components/Global/Hero_Image"
 
 
@@ -30,7 +31,7 @@ const imageData = data.img.childImageSharp.fluid
      <Layout>
     <SEO title="Home" />
     <BackgroundImage fluid={imageData}  className="hero_background"><h1 className="text-white">HERO-IMAGE</h1></BackgroundImage>
-
+      <Info/>
   </Layout>
    )
   

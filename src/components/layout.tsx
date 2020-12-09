@@ -10,6 +10,7 @@ import React from "react"
 
 import "./layout.css"
 import Navbar from "./Global/Navbar"
+import Footer from "./Footer"
 
 const Layout: React.FC = ({ children }) => {
   return (
@@ -17,6 +18,7 @@ const Layout: React.FC = ({ children }) => {
       <Navbar />
 
       {children}
+      <Footer/>
     </>
   )
 }

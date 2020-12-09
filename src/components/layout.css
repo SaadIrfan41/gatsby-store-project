@@ -9758,3 +9758,20 @@ legend {
   background-position: center;
   background-size: cover;
 }
+
+.btn-color {
+  color: red;
+  border-color: red;
+  background-color: white;
+}
+
+.btn-color:hover {
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+
+.footer-text {
+  color: red;
+  background-color: #242526;
+}
