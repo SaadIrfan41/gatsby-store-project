@@ -9775,3 +9775,10 @@ legend {
   color: red;
   background-color: #242526;
 }
+
+.price_name {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
