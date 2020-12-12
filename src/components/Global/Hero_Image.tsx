@@ -8,7 +8,6 @@
 // img:string;
 // }
 
-
 // const Hero_Image = ({img,styleClass,title,children}:props) => {
 //     return (
 //         <BackgroundImage className={styleClass} fluid={img}>
@@ -19,7 +18,3 @@
 // }
 
 // export default Hero_Image
-
-
-
-

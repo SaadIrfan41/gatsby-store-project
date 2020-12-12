@@ -3,5 +3,4 @@ declare module "*.png" {
   export default src
 }
 
-declare module 'react-helmet';
-
+declare module "react-helmet"
